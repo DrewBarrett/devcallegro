@@ -1,0 +1,20 @@
+[Template]
+ver=1
+Name=Allegro5 Dynamic
+Description=Dynamic project
+Catagory=Basic
+[Unit0]
+CppName=main.cpp
+Cpp=Allegro5_Dynamic_main.cpp.txt
+[Project]
+UnitCount=1
+Type=0
+IsCpp=1
+Compiler=
+CppCompiler=
+Linker=-lgcc_eh_@@_-lallegro-5.0.10-monolith-mt_@@_-lallegro_image-5.0.10-mt_@@_-lallegro_primitives-5.0.10-mt_@@_-lallegro_font-5.0.10-mt_@@_-lallegro_ttf-5.0.10-mt_@@__@@__@@_
+CompilerSettings=0000000000000000000000000
+CompilerSet=0
+IncludeVersionInfo=0
+SupportXPThemes=0
+Name=Custom project

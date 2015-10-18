@@ -1,0 +1,21 @@
+[Template]
+ver=1
+Name=Allegro5 application (DLL)
+Icon=Allegro5 application (DLL).ico
+Description=Allegro5 dynamic link project
+Category=MultiMedia
+[Unit0]
+CppName=main.c
+Cpp=Allegro5_application_(DLL)_main.c.txt
+[Project]
+UnitCount=1
+Type=0
+IsCpp=1
+Compiler=
+CppCompiler=
+Linker=-lgcc_eh_@@_-lallegro-5.0.10-monolith-mt_@@_-lallegro_image-5.0.10-mt_@@_-lallegro_primitives-5.0.10-mt_@@_-lallegro_font-5.0.10-mt_@@_-lallegro_ttf-5.0.10-mt_@@__@@_
+CompilerSettings=0000000000000000000000000
+CompilerSet=0
+IncludeVersionInfo=0
+SupportXPThemes=0
+Icon=Allegro5 application (DLL).project.ico

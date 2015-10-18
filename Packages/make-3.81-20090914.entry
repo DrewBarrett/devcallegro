@@ -1,0 +1,14 @@
+[Setup]
+AppName=GNU make
+AppVersion=3.81-20090914
+Description=This is GNU Make 3.81-20090914 - the current version released by the MinGW team.<br>Copied mingw32-make.exe to make.exe to satisfy some references.
+Url=http://www.gnu.org/software/make/
+
+[Files]
+bin\make.exe
+doc\mingw32-make\README.mingw
+share\info\dir
+share\info\make.info
+share\info\make.info-1
+share\info\make.info-2
+share\man\man1\mingw32-make.1

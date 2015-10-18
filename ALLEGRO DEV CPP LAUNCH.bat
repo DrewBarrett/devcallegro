@@ -1,0 +1,1 @@
+devcpp.exe -c %cd%\config

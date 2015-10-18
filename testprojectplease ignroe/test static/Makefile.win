@@ -1,0 +1,30 @@
+# Project: Project4
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o $(RES)
+LINKOBJ  = main.o $(RES)
+LIBS =  -L"lib" -L"mingw32/lib" -mwindows -lgcc_eh -lallegro-5.0.10-static-mt -lallegro_acodec-5.0.10-static-mt -lallegro_audio-5.0.10-static-mt -lopenal-1.14-static-mt -lvorbisfile-1.3.2-static-mt -lvorbis-1.3.2-static-mt -lallegro_color-5.0.10-static-mt -lallegro_dialog-5.0.10-static-mt -lallegro_font-5.0.10-static-mt -lallegro_image-5.0.10-static-mt -lallegro_memfile-5.0.10-static-mt -lallegro_physfs-5.0.10-static-mt -lallegro_primitives-5.0.10-static-mt -lallegro_ttf-5.0.10-static-mt -ldumb-0.9.3-static-mt -lFLAC-1.2.1-static-mt -lfreetype-2.4.8-static-mt -logg-1.2.1-static-mt -lzlib-1.2.5-static-mt -lfreetype-2.4.8-static-mt -lgdiplus -luuid -lkernel32 -lwinmm -lpsapi -lopengl32 -lglu32 -luser32 -lcomdlg32 -lgdi32 -lshell32 -lole32 -ladvapi32 -lws2_32 -lshlwapi   
+INCS =  -I"include"  -I"mingw32/include" 
+CXXINCS =  -I"include"  -I"mingw32/include" 
+BIN  = Project4.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project4.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Project4.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
